@@ -1,4 +1,11 @@
-### Hi there 👋
+# Hi there 👋
+## I'm Anthony Ngo
+
+- 🔭 I’m currently working on personal summer projects
+- 🌱 I’m currently learning JavaScript, React, Vue, ...
+- 📫 How to reach me: <ngo.anthony.me@gmail.com>
+- 😄 Pronouns: he/him/his
+- ⚡ Fun fact: I like to go on hikes and occasional runs
 
 <!--
 **ngoantho/ngoantho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
