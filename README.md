@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on personal summer projects
 - 🌱 I’m currently learning JavaScript, React, Vue, ...
-- 📫 How to reach me: <ngo.anthony.me@gmail.com>
+- 📫 How to reach me: <contact@anthonyngo.me>
 - 😄 Pronouns: he/him/his
 - ⚡ Fun fact: I like to go on hikes and occasional runs
 
