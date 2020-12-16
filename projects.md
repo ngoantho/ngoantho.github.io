@@ -1,6 +1,6 @@
 ## Projects
 
-|                 | [Learn more :bulb:](http://github.com/ngoantho)                                                                                                                                          | Built with             |
+|                 | [Learn more :zap:](http://github.com/ngoantho)                                                                                                                                           | Built with             |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
 | [Website](/)    | This website, built with React and Next.js                                                                                                                                               | React                  |
 | Global Game Jam | A video game made in c# within 48 hours with 4 people; was responsible for script development and designed gameplay mechanics                                                            | C#, Unity              |
