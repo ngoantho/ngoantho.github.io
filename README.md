@@ -1,23 +1,21 @@
-# Hi there 👋
-## I'm Anthony Ngo
+![me](/me.png)
 
-- 🔭 I’m currently working on personal summer projects
-- 🌱 I’m currently learning JavaScript, React, Vue, ...
-- 📫 How to reach me: <contact@anthonyngo.me>
-- 😄 Pronouns: he/him/his
-- ⚡ Fun fact: I like to go on hikes and occasional runs
+# Hello, I'm Anthony! :wave:
 
-<!--
-**ngoantho/ngoantho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a computer science student based in Seattle.
 
-Here are some ideas to get you started:
+I enjoy building projects that are innovative and change the lives of others. My
+hobbies include, but not limited to, hiking, traveling, jogging, and playing
+video games.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+While studying at [Seattle University](http://seattleu.edu), here are a few
+technologies I've worked with recently:
+
+- JavaScript (ES5)
+- React
+- Vue
+- HTML & (S)CSS
+- Python
+- C#
+- Rust
+- Julia
