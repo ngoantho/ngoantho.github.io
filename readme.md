@@ -1,4 +1,4 @@
-## Hi, I'm Anthony.
+# Hi, I'm Anthony.
 
 I'm a computer science student based in Seattle.
 
