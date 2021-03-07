@@ -1,6 +1,4 @@
-![me](/me.png)
-
-# Hello, I'm Anthony! :wave:
+## Hi, I'm Anthony.
 
 I'm a computer science student based in Seattle.
 
