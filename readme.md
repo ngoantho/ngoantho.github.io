@@ -4,10 +4,8 @@
                   wacky digital experiences. Currently, I'm studying at Seattle University
                   with a focus on app development.</span></span></p>
             <h2 class="notion-h2"><span><span>Contact information</span></span></h2>
-            <p class="notion-text"><span><a target="_blank" href="mailto:anthony@anthonyngo.me"
+            <p class="notion-text"><span><a target="_blank" href="mailto:anthonyngo002@gmail.com"
                   class="notion-link"><span>📧</span></a></span></p>
-            <p class="notion-text"><span><a target="_blank" href="https://twitter.com/vadlus"
-                  class="notion-link"><span>🐦</span></a></span></p>
             <p class="notion-text"><span><a target="_blank" href="https://linkedin.com/in/anthongo"
                   class="notion-link"><span>🔗</span></a></span></p>
             <p class="notion-text"><span><a target="_blank" href="https://github.com/ngoantho"
