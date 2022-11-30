@@ -5,11 +5,11 @@
                   with a focus on app development.</span></span></p>
             <h2 class="notion-h2"><span><span>Contact information</span></span></h2>
             <p class="notion-text"><span><a target="_blank" href="mailto:anthonyngo002@gmail.com"
-                  class="notion-link"><span>📧</span></a></span></p>
+                  class="notion-link"><span>📧 Email</span></a></span></p>
             <p class="notion-text"><span><a target="_blank" href="https://linkedin.com/in/anthongo"
-                  class="notion-link"><span>🔗</span></a></span></p>
+                  class="notion-link"><span>🔗 LinkedIn</span></a></span></p>
             <p class="notion-text"><span><a target="_blank" href="https://github.com/ngoantho"
-                  class="notion-link"><span>🐙</span></a></span></p>
+                  class="notion-link"><span>🐙 GitHub</span></a></span></p>
             <h2 class="notion-h2"><span><span>🧑‍💻 Work experience</span></span></h2>
             <h3 class="notion-h3"><span><span>IT Intern</span></span></h3>
             <p class="notion-text"><span><em><b><span>Florida Blue</span></b></em><em><span>, Remote — (June 2021 -
