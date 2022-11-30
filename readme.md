@@ -15,7 +15,7 @@
             <h2 class="notion-h2"><span><span>🧑‍💻 Work experience</span></span></h2>
             <h3 class="notion-h3"><span><span>IT Intern</span></span></h3>
             <p class="notion-text"><span><em><b><span>Florida Blue</span></b></em><em><span>, Remote — (June 2021 -
-                    Present)</span></em></span></p>
+                    September 2021)</span></em></span></p>
             <h3 class="notion-h3"><span><span>Logistics Associate</span></span></h3>
             <p class="notion-text"><span><em><b><span>Amazon</span></b></em><em><span>, Renton, Washington — (June 2019
                     - Aug 2019)</span></em></span></p>
