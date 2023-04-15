@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/github-markdown-css@5.2.0/github-markdown.css" />
+  <title>Anthony Ngo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      font-size: 16px;
+    }
+
+    body {
+      width: 50%;
+      margin: 1rem auto !important;
+    }
+  </style>
+
+  <script>
+    async function $() {
+      let converter = new showdown.Converter();
+      converter.setFlavor('github');
+
+      let res = await fetch("https://raw.githubusercontent.com/ngoantho/ngoantho/main/readme.md");
+      let text = await res.text();
+
+      document.body.innerHTML = converter.makeHtml(text);
+    }
+  </script>
+</head>
+
+<body class="markdown-body" onload="$()"></body>
+
+</html>
