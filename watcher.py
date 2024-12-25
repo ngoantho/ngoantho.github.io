@@ -5,22 +5,26 @@ from subprocess import run
 
 
 class Handler(FileSystemEventHandler):
+    def __init__(self, file: str):
+        self.file = file
+
     def on_modified(self, event):
         if not isinstance(event, FileModifiedEvent):
             return
-        if not event.src_path == ".\\portfolio.odp":
+        if not event.src_path == f".\\{self.file}":
             return
 
-        print("Converting portfolio.odp to portfolio.pdf")
+        print(f"Converting {self.file} to PDF")
         try:
-            run(["soffice.exe", "--headless", "--convert-to", "pdf", "portfolio.odp"])
+            run(["soffice.exe", "--headless", "--convert-to", "pdf", self.file])
         except Exception as e:
             print(f"Error: {e}")
         print("Conversion complete")
 
 
+handler = Handler(file="portfolio.odp")
 observer = Observer()
-observer.schedule(Handler(), path=".", recursive=False)
+observer.schedule(handler, path=".", recursive=False)
 observer.start()
 
 try:
