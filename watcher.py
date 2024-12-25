@@ -8,6 +8,9 @@ class Handler(FileSystemEventHandler):
     def __init__(self, file: str):
         self.file = file
 
+    def on_thread_start(self):
+        print(f"Watching for {self.file} to change")
+
     def on_modified(self, event):
         if not isinstance(event, FileModifiedEvent):
             return
@@ -24,7 +27,7 @@ class Handler(FileSystemEventHandler):
 
 handler = Handler(file="portfolio.odp")
 observer = Observer()
-observer.on_thread_start = lambda: print("Watching for portfolio.odp to change")
+observer.on_thread_start = handler.on_thread_start
 observer.schedule(handler, path=".", recursive=False)
 observer.start()
 
