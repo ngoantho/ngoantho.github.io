@@ -24,6 +24,7 @@ class Handler(FileSystemEventHandler):
 
 handler = Handler(file="portfolio.odp")
 observer = Observer()
+observer.on_thread_start = lambda: print("Watching for portfolio.odp to change")
 observer.schedule(handler, path=".", recursive=False)
 observer.start()
 
