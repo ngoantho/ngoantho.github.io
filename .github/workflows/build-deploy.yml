@@ -17,3 +17,16 @@ jobs:
           node-version: "latest"
       - run: pnpm install
       - run: pnpm build
+      - uses: actions/upload-pages-artifact@main
+        with:
+          path: dist/
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@main
