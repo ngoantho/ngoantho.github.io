@@ -8,15 +8,18 @@ function normalize(header: string) {
 }
 
 export function Nav() {
+  const headers = document.getElementsByTagName("main")[0].querySelectorAll("h2")
+
   return (
     <ol>
-      {Array.from(
-        document.getElementsByTagName("main")[0].querySelectorAll("h2")
-      ).map((header) => {
+      <li>
+        <a href="#top">➡️Contact</a>
+      </li>
+      {Array.from(headers).map((header) => {
         header.id = normalize(header.textContent)
         return (
           <li>
-            <a href={`#${header.id}`}>{header.textContent}</a>
+            <a href={`#${header.id}`}>{`➡️${header.textContent}`}</a>
           </li>
         )
       })}

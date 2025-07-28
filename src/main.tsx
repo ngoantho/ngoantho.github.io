@@ -6,4 +6,4 @@ import { Nav } from "./nav/nav"
 
 render(<Index />, document.getElementsByTagName("main")[0])
 
-render(<Nav />, document.getElementsByTagName("nav")[0])
+render(<Nav />, document.getElementsByTagName("footer")[0])

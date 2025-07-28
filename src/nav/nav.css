@@ -1,6 +1,6 @@
-nav {
+footer {
   position: sticky;
-  top: 0;
+  bottom: 0;
   background: var(--bgColor-default);
 
   >ol {
@@ -11,9 +11,5 @@ nav {
     margin-left: -5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-
-    >li::before {
-      content: "➡️";
-    }
   }
 }
