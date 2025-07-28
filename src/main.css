@@ -1,4 +1,1 @@
-body {
-  margin: 0 auto !important;
-  max-width: 50rem;
-}
+@import url("./css/min-50rem.css") (min-width: 50rem);
