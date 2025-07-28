@@ -1,1 +1,5 @@
 @import url("./css/min-50rem.css") (min-width: 50rem);
+
+h1 {
+  margin-top: 0 !important;
+}

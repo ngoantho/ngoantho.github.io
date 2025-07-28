@@ -6,4 +6,6 @@
 >
 > Proficient in Databases, Android, Flutter, Testing, Debugging, various Programming Languages, Web Frameworks, and more!
 
-## 🚧 Work in progress 🚧
+## Work
+
+## Projects

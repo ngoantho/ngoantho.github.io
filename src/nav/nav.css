@@ -1,0 +1,19 @@
+nav {
+  position: sticky;
+  top: 0;
+  background: var(--bgColor-default);
+
+  >ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: -5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    >li::before {
+      content: "➡️";
+    }
+  }
+}
