@@ -1,4 +1,5 @@
 import "./nav.css"
+import { useRef } from "preact/hooks"
 
 function normalize(header: string) {
   return header
@@ -8,7 +9,8 @@ function normalize(header: string) {
 }
 
 export function Nav() {
-  const headers = document.getElementsByTagName("main")[0].querySelectorAll("h2")
+  let ref = useRef(document.getElementsByTagName("main")[0])
+  let headers = ref.current.querySelectorAll("h2")
 
   return (
     <ol>
@@ -16,7 +18,7 @@ export function Nav() {
         <a href="#top">➡️Contact</a>
       </li>
       {Array.from(headers).map((header) => {
-        header.id = normalize(header.textContent)
+        header.id = normalize(header.textContent ?? "")
         return (
           <li>
             <a href={`#${header.id}`}>{`➡️${header.textContent}`}</a>
