@@ -1,0 +1,9 @@
+@use "bulma/sass/components/card";
+
+.project.card:not(:last-child) {
+  margin-bottom: var(--base-size-16) !important;
+}
+
+.project.card p:first-child {
+  font-weight: bold;
+}

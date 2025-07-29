@@ -9,7 +9,7 @@ function normalize(header: string) {
     .replaceAll(" ", "-") // Replace spaces with hyphens
 }
 
-export function Nav() {
+export default function Nav() {
   let ref = useRef(document.getElementsByTagName("main")[0])
   let headers = Array.from(ref.current.querySelectorAll("h2")).map((header) => {
     header.id = normalize(header.textContent ?? "")
@@ -33,7 +33,7 @@ export function Nav() {
           </li>
         ))}
       </ol>
-      <select onChange={onSelect} defaultValue="menu">
+      <select title="Menu" onChange={onSelect} defaultValue="menu">
         <option value="menu" hidden>Menu</option>
         {headers.map(({ href, text }) => (
           <option value={href}>{text}</option>
