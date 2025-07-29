@@ -1,6 +1,6 @@
 import type { TargetedEvent } from "preact/compat"
 import "./nav.css"
-import { useRef, useState } from "preact/hooks"
+import { useRef } from "preact/hooks"
 
 function normalize(header: string) {
   return header
