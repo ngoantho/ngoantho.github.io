@@ -14,9 +14,6 @@ export function Nav() {
 
   return (
     <ol>
-      <li>
-        <a href="#top">➡️Contact</a>
-      </li>
       {Array.from(headers).map((header) => {
         header.id = normalize(header.textContent ?? "")
         return (
