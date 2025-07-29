@@ -1,5 +1,6 @@
+import type { TargetedEvent } from "preact/compat"
 import "./nav.css"
-import { useRef } from "preact/hooks"
+import { useRef, useState } from "preact/hooks"
 
 function normalize(header: string) {
   return header
@@ -10,18 +11,34 @@ function normalize(header: string) {
 
 export function Nav() {
   let ref = useRef(document.getElementsByTagName("main")[0])
-  let headers = ref.current.querySelectorAll("h2")
+  let headers = Array.from(ref.current.querySelectorAll("h2")).map((header) => {
+    header.id = normalize(header.textContent ?? "")
+    return {
+      href: `#${header.id}`,
+      text: `➡️${header.textContent}`
+    }
+  })
+
+  function onSelect(e: TargetedEvent<HTMLSelectElement>) {
+    location.assign((e.target as HTMLSelectElement).value);
+    (e.target as HTMLSelectElement).value = "menu"
+  }
 
   return (
-    <ol>
-      {Array.from(headers).map((header) => {
-        header.id = normalize(header.textContent ?? "")
-        return (
+    <>
+      <ol>
+        {headers.map(({ href, text }) => (
           <li>
-            <a href={`#${header.id}`}>{`➡️${header.textContent}`}</a>
+            <a href={href}>{text}</a>
           </li>
-        )
-      })}
-    </ol>
+        ))}
+      </ol>
+      <select onChange={onSelect} defaultValue="menu">
+        <option value="menu" hidden>Menu</option>
+        {headers.map(({ href, text }) => (
+          <option value={href}>{text}</option>
+        ))}
+      </select>
+    </>
   )
 }

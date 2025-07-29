@@ -5,11 +5,26 @@ footer {
 
   >ol {
     list-style: none;
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-left: -5rem;
+    margin-left: -2.5rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    display: none;
+    /* don't display by default */
+
+    @media (min-width: 50rem) {
+      display: flex;
+    }
+  }
+
+  >select {
+    width: 50%;
+    transform: translateX(50%);
+    /* display by default */
+
+    @media (min-width: 50rem) {
+      display: none;
+    }
   }
 }
