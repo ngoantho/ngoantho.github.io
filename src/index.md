@@ -5,7 +5,7 @@
 - Proficient in **Databases**, **Mobile**, **Testing**, **Debugging**, various **Programming Languages**, **Web Frameworks**, and more!
 
 ## Contact
-![Phone](https://img.shields.io/badge/phone-+1%202063494860-8A2BE2)
+![Phone](https://img.shields.io/badge/phone-+12063494860-8A2BE2)
 [![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/anthongo)
 [![Upwork](https://img.shields.io/badge/Upwork-6FDA44?logo=upwork&logoColor=fff)](https://www.upwork.com/freelancers/~01cfbb56c2bb5b594d)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?logo=fiverr&logoColor=fff)](https://www.fiverr.com/anthonyngo4860)
