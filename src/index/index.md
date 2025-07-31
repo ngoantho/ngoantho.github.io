@@ -87,9 +87,6 @@
 > - Tutored high schoolers 1-on-1 in Math/Physics via SUM Corps to promote community engagement
 > - Encouraged STEM curiosity using my own experiences, helping close gaps in underserved populations
 > - Used equity-driven strategies in sessions, helping 96% of minority students reach academic goals
->
-> ![carousel](/icon_96x96.jpg)
-> ![carousel](/icon.jpg)
 
 > ### Research Assistant
 >
@@ -98,13 +95,51 @@
 > - Built CUDA based BFS algorithm to traverse graphs with 1K+ nodes using the Harmonize > framework
 > - Achieved 25% speed up using GPU execution over CPU execution in benchmarked graph workloads
 > - Presented results to 30+ faculty/students, contributing to co-authored research publication
+> - Published paper to figshare
+>
+> <https://doi.org/10.6084/m9.figshare.29650229.v3>
+
+> ### Junior SQL Developer
+>
+> #### People Tech Group | Redmond, Washington | January 2023 – March 2023
+>
+> - Optimized 4 ETL pipelines used in global Microsoft processes, improving reporting acro-s departments
+> - Built SQL tool unifying 5+ databases into 1 spreadsheet, streamlining -ross-departmental reporting
+> - Tracked user acquisition data (Jun-Dec 2022) with Power BI, driving strategy insights for 100K+ users
+> - Endorsed by Sr. Data Engineer for effective communication skills
+>
+> <https://tinyurl.com/anptglor>
+
+> ### Information Technology Intern
+>
+> #### Florida Blue | Remote | June 2021 – August 2021
+>
+> - Built SSIS package for NACHA compliant conversion, now used to encrypt personal info of customers
+> - Delivered 10+ backend tasks using Oracle SQL, and Java with Java Server Pages
+> - Contributed to 3 sprints on 10-person Scrum team, enhancing enrollment system features
+> - Endorsed by Sr. IT Developer for exceptional speed and accuracy
+>
+> <https://tinyurl.com/anfblor>
 
 ## Projects
 
-> ### Project 1
+> ### Accessible UX Overhaul for Senior Services
 >
-> Description
+> #### September 2024 – March 2025
+>
+> - Redesigned 5+ web pages using HTML/CSS/PHP to improve readability and user interface design
+> - Automated CI/CD pipeline by integrating GitHub Actions, reducing deployment steps from 5 to 1
+> - Coordinated code reviews with 5 team members via pull requests, ensuring code quality of 100%
+> - Integrated 5+ Cypress tests and Google Analytics, catching issues and improving user tracking
+>
+> <https://soundgenerations.org>
 
-> ### Project 2
+> ### Survey Platform with AI analysis
 >
-> Description
+> #### September 2024 – December 2024
+>
+> - Synchronized with 5 MongoDB collections using Mongoose as ORM
+> - Developed a 3 tab interface with Angular, using Bootstrap for CSS styling
+> - Analyzed survey responses with ChatGPT/Gemini, leading to better understanding
+>
+> <https://tinyurl.com/survey-sage>

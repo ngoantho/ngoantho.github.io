@@ -1,5 +1,6 @@
 import { render } from "preact"
 import "./main.css"
+import "bulma/css/bulma.css"
 import "github-markdown-css/github-markdown.css"
 import Nav from "./nav/nav"
 import IndexWrapper from "./index/index"

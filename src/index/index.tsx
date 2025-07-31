@@ -1,9 +1,13 @@
 import Index from "./index.md"
 import { type ComponentChildren } from "preact"
-import "./index.scss"
+import "./index.css"
 
 function BlockQuote({ children }: { children: ComponentChildren }) {
   return <blockquote class="card">{children}</blockquote>
+}
+
+function Anchor({ children, ...props }: { children: ComponentChildren }) {
+  return <a class="button" {...props}>{children}</a>
 }
 
 export default function IndexWrapper() {
@@ -11,6 +15,7 @@ export default function IndexWrapper() {
     <Index
       components={{
         blockquote: BlockQuote,
+        a: Anchor
       }}
     />
   )

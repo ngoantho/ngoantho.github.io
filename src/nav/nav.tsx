@@ -29,7 +29,7 @@ export default function Nav() {
       <ol>
         {headers.map(({ href, text }) => (
           <li>
-            <a href={href}>{text}</a>
+            <a href={href} class="button">{text}</a>
           </li>
         ))}
       </ol>

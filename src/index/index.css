@@ -1,5 +1,3 @@
-@use "bulma/bulma";
-
 ul {
   list-style: initial !important;
 }
@@ -10,14 +8,7 @@ ul {
   h4 {
     margin-top: 0.25em !important;
     margin-bottom: 0.25em !important;
-  }
-
-  h3 {
-    @extend .title;
-  }
-
-  h4 {
-    @extend .subtitle;
+    color: var(--fgColor-default);
   }
 
   p {
