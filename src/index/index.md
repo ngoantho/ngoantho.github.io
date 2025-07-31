@@ -95,7 +95,7 @@
 > - Built CUDA based BFS algorithm to traverse graphs with 1K+ nodes using the Harmonize > framework
 > - Achieved 25% speed up using GPU execution over CPU execution in benchmarked graph workloads
 > - Presented results to 30+ faculty/students, contributing to co-authored research publication
-> - Published paper to figshare
+> - Published paper to figshare, a place to share research outputs
 >
 > <https://doi.org/10.6084/m9.figshare.29650229.v3>
 
