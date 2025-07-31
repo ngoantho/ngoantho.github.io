@@ -1,9 +1,29 @@
-@use "bulma/sass/components/card";
+@use "bulma/bulma";
 
-.project.card:not(:last-child) {
-  margin-bottom: var(--base-size-16) !important;
+ul {
+  list-style: initial !important;
 }
 
-.project.card p:first-child {
-  font-weight: bold;
+.card {
+
+  h3,
+  h4 {
+    margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
+  }
+
+  h3 {
+    @extend .title;
+  }
+
+  h4 {
+    @extend .subtitle;
+  }
+
+  p {
+    display: flex;
+    overflow-x: auto;
+    align-items: flex-start;
+    gap: .25em;
+  }
 }

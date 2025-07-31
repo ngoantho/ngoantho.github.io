@@ -80,14 +80,31 @@
 
 ## Work Experience
 
-🚧 Work in progress 🚧
+> ### Math/Physics Tutor
+>
+> #### Seattle World School | Seattle, Washington | December 2024 - June 2025
+>
+> - Tutored high schoolers 1-on-1 in Math/Physics via SUM Corps to promote community engagement
+> - Encouraged STEM curiosity using my own experiences, helping close gaps in underserved populations
+> - Used equity-driven strategies in sessions, helping 96% of minority students reach academic goals
+>
+> ![carousel](/icon_96x96.jpg)
+> ![carousel](/icon.jpg)
+
+> ### Research Assistant
+>
+> #### Seattle University | Seattle, Washington | May 2024 – December 2024
+>
+> - Built CUDA based BFS algorithm to traverse graphs with 1K+ nodes using the Harmonize > framework
+> - Achieved 25% speed up using GPU execution over CPU execution in benchmarked graph workloads
+> - Presented results to 30+ faculty/students, contributing to co-authored research publication
 
 ## Projects
 
-> Project 1
+> ### Project 1
 >
 > Description
 
-> Project 2
+> ### Project 2
 >
 > Description

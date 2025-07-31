@@ -1,9 +1,9 @@
 import Index from "./index.md"
-import type { ComponentChildren } from "preact"
+import { type ComponentChildren } from "preact"
 import "./index.scss"
 
 function BlockQuote({ children }: { children: ComponentChildren }) {
-  return <blockquote class="project card">{children}</blockquote>
+  return <blockquote class="card">{children}</blockquote>
 }
 
 export default function IndexWrapper() {
